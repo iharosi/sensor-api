@@ -1,0 +1,23 @@
+{
+  "name": "sensor-api",
+  "version": "0.0.1",
+  "description": "Bosch BME280 Sensor Restful Web API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Gergely Iharosi",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:iharosi/sensor-api.git"
+  },
+  "dependencies": {
+    "bme280-sensor": "^0.1.6",
+    "body-parser": "^1.18.2",
+    "express": "^5.0.0-alpha.6",
+    "mongodb": "^2.2.34",
+    "morgan": "^1.9.0",
+    "serve-favicon": "^2.4.5"
+  }
+}
