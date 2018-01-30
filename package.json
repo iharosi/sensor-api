@@ -7,7 +7,7 @@
     "start": "node server.js"
   },
   "author": "Gergely Iharosi",
-  "license": "MIT",
+  "license": "AGPL-3.0",
   "repository": {
     "type": "git",
     "url": "git@github.com:iharosi/sensor-api.git"
