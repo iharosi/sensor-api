@@ -25,7 +25,7 @@ This is a [Node.JS](https://nodejs.org/) [Restful](https://en.wikipedia.org/wiki
 	| Clock SCL |         Pin 5         |   SCK pin  |
 	|   Ground  |         Pin 6         |   GND pin  |
 4. Install I2C tools: `sudo apt install i2c-tools`  
-5. Check the presence of the device by running `i2cdetect -y 1`. It should show address `0×77` if connection is correct.
+5. Check the presence of the device by running `sudo i2cdetect -y 1`. It should show address `0×77` if connection is correct.
 6. Install [Adafruit Python GPIO](https://github.com/adafruit/Adafruit_Python_GPIO) library
 7. Test data reading with [Adafruit Python BME280](https://github.com/adafruit/Adafruit_Python_BME280) examples
 
