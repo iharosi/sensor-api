@@ -10,7 +10,7 @@ This is a [Node.JS](https://nodejs.org/) [Restful](https://en.wikipedia.org/wiki
 ### Raspberry Pi Zero with Raspbian OS
 
 1. Download [Raspbian Stretch Lite](https://www.raspberrypi.org/downloads/raspbian/) and use [Etcher](https://etcher.io) to install the image to the SD card
-2. Follow the [Raspberry Pi Zero Headless Setup](https://davidmaitland.me/2015/12/raspberry-pi-zero-headless-setup/) instruction by [David Maitland](https://github.com/davidmaitland) to prepare the OS without any peripherals
+2. Follow the [Raspberry Pi Zero Headless Setup](https://medium.com/@DavidMaitland/raspberry-pi-zero-headless-setup-92fb72daf88d) instruction by [David Maitland](https://github.com/davidmaitland) to prepare the OS without any peripherals
 
 ### Connect Adafruit BME280 through GPIO pins by I2C
 
@@ -25,7 +25,8 @@ This is a [Node.JS](https://nodejs.org/) [Restful](https://en.wikipedia.org/wiki
 	| Clock SCL |         Pin 5         |   SCK pin  |
 	|   Ground  |         Pin 6         |   GND pin  |
 4. Install I2C tools: `sudo apt install i2c-tools`  
-5. Check the presence of the device by running `sudo i2cdetect -y 1`. It should show address `0×77` if connection is correct.
+5. Check the presence of the device by running `sudo i2cdetect -y 1`.  
+It should show address `0×77` if connection is correct.
 6. Install [Adafruit Python GPIO](https://github.com/adafruit/Adafruit_Python_GPIO) library
 7. Test data reading with [Adafruit Python BME280](https://github.com/adafruit/Adafruit_Python_BME280) examples
 
